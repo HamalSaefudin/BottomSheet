@@ -23,7 +23,8 @@ struct ContentView: View {
                         .ignoresSafeArea()
                 }
             VStack(){
-                HStack(spacing: 100){
+                HStack{
+                    Spacer()
                     Button {
                         isAlert = true;
                     } label:{
@@ -40,11 +41,12 @@ struct ContentView: View {
                                 Text("Currrently on active development")
                             }
                     }
+                    Spacer()
                     Text("Travel")
                         .foregroundColor(.white)
                         .fontWeight(.medium)
                         .font(.system(size: 20))
-                    
+                    Spacer()
                     Image(systemName:"cart.badge.plus")
                         .renderingMode(.original)
                         .fontWeight(.bold)
@@ -59,6 +61,7 @@ struct ContentView: View {
                                 .presentationDragIndicator(.visible)
                             bottomMenu
                         }
+                    Spacer()
                     
                 }.padding(.top,20)
                 Spacer()
@@ -95,11 +98,13 @@ struct ContentView_Previews: PreviewProvider {
 
 extension ContentView{
     private var bottomMenu:some View{
-        HStack(spacing:130){
+        HStack(){
+            Spacer().frame(width: 20)
             Text("$81.80")
                 .font(.title2)
                 .foregroundColor(.blue)
                 .fontWeight(.bold)
+            Spacer()
             Link(destination: URL(string: "https://www.apple.com")!) {
                 ZStack {
                     LinearGradient(colors: [.purple,.indigo], startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -115,6 +120,7 @@ extension ContentView{
                     
                 }
             }
+            Spacer().frame(width: 20)
         }
     }
 }
