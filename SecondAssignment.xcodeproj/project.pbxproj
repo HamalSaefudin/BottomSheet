@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC18865F2934A74400BDD247 /* DetailSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18865E2934A74400BDD247 /* DetailSheetView.swift */; };
 		DC88DA182933207F0061EA3D /* SecondAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88DA172933207F0061EA3D /* SecondAssignmentApp.swift */; };
 		DC88DA1A2933207F0061EA3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88DA192933207F0061EA3D /* ContentView.swift */; };
 		DC88DA1C293320810061EA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC88DA1B293320810061EA3D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC18865E2934A74400BDD247 /* DetailSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSheetView.swift; sourceTree = "<group>"; };
 		DC88DA142933207F0061EA3D /* SecondAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC88DA172933207F0061EA3D /* SecondAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAssignmentApp.swift; sourceTree = "<group>"; };
 		DC88DA192933207F0061EA3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				DC88DA192933207F0061EA3D /* ContentView.swift */,
 				DC88DA1B293320810061EA3D /* Assets.xcassets */,
 				DC88DA1D293320810061EA3D /* Preview Content */,
+				DC18865E2934A74400BDD247 /* DetailSheetView.swift */,
 			);
 			path = SecondAssignment;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC88DA1A2933207F0061EA3D /* ContentView.swift in Sources */,
+				DC18865F2934A74400BDD247 /* DetailSheetView.swift in Sources */,
 				DC88DA182933207F0061EA3D /* SecondAssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
